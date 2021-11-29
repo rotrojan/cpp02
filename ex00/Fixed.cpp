@@ -6,7 +6,7 @@
 /*   By: rotrojan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 15:26:44 by rotrojan          #+#    #+#             */
-/*   Updated: 2021/11/27 16:30:38 by rotrojan         ###   ########.fr       */
+/*   Updated: 2021/11/29 16:48:41 by rotrojan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ Fixed::Fixed(Fixed const &fixed)
 
 Fixed::~Fixed(void)
 {
-	std::cout << "Default destructor called" << std::endl;
+	std::cout << "Destructor called" << std::endl;
 }
 
 Fixed	&Fixed::operator=(Fixed const &fixed)
