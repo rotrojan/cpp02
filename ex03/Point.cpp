@@ -6,7 +6,7 @@
 /*   By: rotrojan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/29 21:11:05 by rotrojan          #+#    #+#             */
-/*   Updated: 2021/11/29 23:27:49 by rotrojan         ###   ########.fr       */
+/*   Updated: 2021/11/30 16:33:49 by rotrojan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,4 +41,10 @@ Fixed const	&Point::getX(void) const
 Fixed const	&Point::getY(void) const
 {
 	return (this->_y);
+}
+
+std::ostream	&operator<<(std::ostream &ostream, Point const &point)
+{
+	ostream << "x = " << point.getX() << ", y = " << point.getY();
+	return (ostream);
 }
