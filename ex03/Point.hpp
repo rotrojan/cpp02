@@ -6,7 +6,7 @@
 /*   By: rotrojan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 14:23:54 by rotrojan          #+#    #+#             */
-/*   Updated: 2021/11/29 23:50:48 by rotrojan         ###   ########.fr       */
+/*   Updated: 2021/11/30 18:40:29 by rotrojan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ class	Point
 		~Point(void) {};
 		// Assignment operator
 		Point	&operator=(Point const &point);
-		// Getter
+		// Getters
 		Fixed const	&getX(void) const;
 		Fixed const	&getY(void) const;
 	private:
